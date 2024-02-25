@@ -3,6 +3,8 @@ import { FC } from 'react';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
+import 'styles/common/global.css';
+
 const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
     <>
